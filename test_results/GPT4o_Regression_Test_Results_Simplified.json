@@ -1,0 +1,452 @@
+[
+  {
+    "id": "X01",
+    "domain": "ICC Matrix Logic",
+    "objective": "Failure to regenerate ICC 3×3 matrix with consistent symbolic anchors",
+    "pre_length": 5486,
+    "post_length": 187,
+    "loss_ratio": 0.966,
+    "regression_detected": true
+  },
+  {
+    "id": "X02",
+    "domain": "Color Symbol Chain Reuse",
+    "objective": "Failure to retain color-symbol logic in successive construction tasks",
+    "pre_length": 5486,
+    "post_length": 3112,
+    "loss_ratio": 0.433,
+    "regression_detected": true
+  },
+  {
+    "id": "X03",
+    "domain": "Hole Grid Calculation",
+    "objective": "Degradation in grid logic for hole placement in plates",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X04",
+    "domain": "Fixation Strategy Decomposition",
+    "objective": "Failure to decompose mechanical fix strategies under constraint",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X05",
+    "domain": "Frame Symmetry Evaluation",
+    "objective": "Loss of internal symmetry validation in structural design",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X06",
+    "domain": "Slot Width Consistency",
+    "objective": "Failure to retain parametric slot widths across design variants",
+    "pre_length": 11517,
+    "post_length": 3112,
+    "loss_ratio": 0.73,
+    "regression_detected": true
+  },
+  {
+    "id": "X07",
+    "domain": "Threaded Insert Sizing",
+    "objective": "Regression in M5 insert fit calculation in constrained volumes",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X08",
+    "domain": "Washer Stack Logic",
+    "objective": "Failure to stack washers and spacers around load axis",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X09",
+    "domain": "Fixer Acidity Inversion",
+    "objective": "Failure to preserve weakly acidic fixer intent in constraint modeling",
+    "pre_length": 6985,
+    "post_length": 187,
+    "loss_ratio": 0.973,
+    "regression_detected": true
+  },
+  {
+    "id": "X10",
+    "domain": "Stop Solution Timing",
+    "objective": "Loss of precision timing in stop-bath analysis",
+    "pre_length": 6985,
+    "post_length": 187,
+    "loss_ratio": 0.973,
+    "regression_detected": true
+  },
+  {
+    "id": "X11",
+    "domain": "Iterative Geometry Refinement",
+    "objective": "Failure to preserve constraints across iterative CAD-like refinement",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X12",
+    "domain": "Anchor Point Fixation Mapping",
+    "objective": "Regression in anchor/mount reuse logic",
+    "pre_length": 11517,
+    "post_length": 3112,
+    "loss_ratio": 0.73,
+    "regression_detected": true
+  },
+  {
+    "id": "X13",
+    "domain": "Symbol-Driven Name Reuse",
+    "objective": "Drift in symbolic naming schemes between sessions",
+    "pre_length": 5486,
+    "post_length": 761,
+    "loss_ratio": 0.861,
+    "regression_detected": true
+  },
+  {
+    "id": "X14",
+    "domain": "Design Language Convergence",
+    "objective": "Failure to unify terminology in collaborative CAD-style dialogue",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X15",
+    "domain": "Operator–System Role Stability",
+    "objective": "Degradation in response style from co-designer to assistant",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X16",
+    "domain": "Mid-Prompt Heuristic Switch",
+    "objective": "Failure to activate alternate strategies upon failed pattern",
+    "pre_length": 5486,
+    "post_length": 3112,
+    "loss_ratio": 0.433,
+    "regression_detected": true
+  },
+  {
+    "id": "X17",
+    "domain": "Multi-Stage Justification Drop",
+    "objective": "Failure to justify compound steps under critique",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X18",
+    "domain": "Measurement Chain Degradation",
+    "objective": "Loss of measurement relation logic (e.g. washer stacks)",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X19",
+    "domain": "Gray Axis Collapse",
+    "objective": "Failure to maintain neutral axis in symbolic ICC simulation",
+    "pre_length": 5486,
+    "post_length": 3112,
+    "loss_ratio": 0.433,
+    "regression_detected": true
+  },
+  {
+    "id": "X20",
+    "domain": "White Point Logic Drift",
+    "objective": "Loss of consistent white-point anchoring in matrix calculation",
+    "pre_length": 5486,
+    "post_length": 187,
+    "loss_ratio": 0.966,
+    "regression_detected": true
+  },
+  {
+    "id": "X21",
+    "domain": "Insert Depth Overshoot",
+    "objective": "Model recommends excessive depth beyond safe tolerance",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X22",
+    "domain": "Stack Height Accumulation",
+    "objective": "Failure to sum mechanical stack heights correctly",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X23",
+    "domain": "Anchor Bolt Redundancy",
+    "objective": "Loss of logic detecting redundant bolts in symmetrical layout",
+    "pre_length": 11517,
+    "post_length": 3112,
+    "loss_ratio": 0.73,
+    "regression_detected": true
+  },
+  {
+    "id": "X24",
+    "domain": "Countersink Misfit",
+    "objective": "Mismatch between countersink diameter and screw head type",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X25",
+    "domain": "Overconstrained Fix Point",
+    "objective": "Failure to detect overconstrained anchor in cornered profile",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X26",
+    "domain": "Slot Orientation Ambiguity",
+    "objective": "Failure to preserve directional slot logic across sketches",
+    "pre_length": 11517,
+    "post_length": 3112,
+    "loss_ratio": 0.73,
+    "regression_detected": true
+  },
+  {
+    "id": "X27",
+    "domain": "Washer–Insert Interface Loss",
+    "objective": "Inconsistent use of washers over inserts in load alignment",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X28",
+    "domain": "Symmetric Subcomponent Drift",
+    "objective": "Model fails to mirror subcomponents in assembly context",
+    "pre_length": 11517,
+    "post_length": 3112,
+    "loss_ratio": 0.73,
+    "regression_detected": true
+  },
+  {
+    "id": "X29",
+    "domain": "Operator Correction Ignored",
+    "objective": "Model repeats mistake despite user redirection",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X30",
+    "domain": "Heuristic-Slot Reuse Failure",
+    "objective": "Cannot reuse working slot pattern in new sketch",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X31",
+    "domain": "Clash-Tolerant Sloting",
+    "objective": "Model creates collisions instead of using existing clearances",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X32",
+    "domain": "Developer Dilution Logic Drift",
+    "objective": "Dilution ratios degrade between similar formulations",
+    "pre_length": 6985,
+    "post_length": 187,
+    "loss_ratio": 0.973,
+    "regression_detected": true
+  },
+  {
+    "id": "X33",
+    "domain": "Bath Time Regression",
+    "objective": "Incorrect fix-to-wash transition time propagation",
+    "pre_length": 6985,
+    "post_length": 187,
+    "loss_ratio": 0.973,
+    "regression_detected": true
+  },
+  {
+    "id": "X34",
+    "domain": "Part Name Instability",
+    "objective": "Model drops assigned names and reverts to generics",
+    "pre_length": 5486,
+    "post_length": 3112,
+    "loss_ratio": 0.433,
+    "regression_detected": true
+  },
+  {
+    "id": "X35",
+    "domain": "Dialog Loop Trigger",
+    "objective": "Repeats clarifications despite clear instructions",
+    "pre_length": 5486,
+    "post_length": 3112,
+    "loss_ratio": 0.433,
+    "regression_detected": true
+  },
+  {
+    "id": "X36",
+    "domain": "Profile-Edge Confusion",
+    "objective": "Mistaken edge reference in extrusion workflow",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X37",
+    "domain": "Internal Cut Alignment Error",
+    "objective": "Misalignment between bore center and external profile",
+    "pre_length": 11517,
+    "post_length": 3112,
+    "loss_ratio": 0.73,
+    "regression_detected": true
+  },
+  {
+    "id": "X38",
+    "domain": "Multi-Solution Compression",
+    "objective": "Gives only 1 answer when task requires variants",
+    "pre_length": 5486,
+    "post_length": 761,
+    "loss_ratio": 0.861,
+    "regression_detected": true
+  },
+  {
+    "id": "X39",
+    "domain": "Concept Switch Delay",
+    "objective": "Fails to switch concept upon failure trace",
+    "pre_length": 5486,
+    "post_length": 3112,
+    "loss_ratio": 0.433,
+    "regression_detected": true
+  },
+  {
+    "id": "X40",
+    "domain": "2D-3D Logic Transfer Failure",
+    "objective": "Fails to translate 2D sketch intent into 3D structure",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X41",
+    "domain": "Cross-Section Degradation",
+    "objective": "Fails to maintain part envelope when modifying internal geometry",
+    "pre_length": 11517,
+    "post_length": 3112,
+    "loss_ratio": 0.73,
+    "regression_detected": true
+  },
+  {
+    "id": "X42",
+    "domain": "Apology Bias Inversion",
+    "objective": "Overweighting safety responses suppresses reasoning",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X43",
+    "domain": "Anchor Drift Post Symmetry",
+    "objective": "Loses anchor definition when reflecting part",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X44",
+    "domain": "Part Layering Instability",
+    "objective": "Cannot retain layer hierarchy across refinements",
+    "pre_length": 11517,
+    "post_length": 3112,
+    "loss_ratio": 0.73,
+    "regression_detected": true
+  },
+  {
+    "id": "X45",
+    "domain": "3D Constraint Mislink",
+    "objective": "Links constraints to incorrect reference points",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X46",
+    "domain": "Washer-Thread Inversion",
+    "objective": "Suggests washers under thread when above is required",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X47",
+    "domain": "Stacked Tolerance Overlap",
+    "objective": "Suggests part stack-up that exceeds allowed fit",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X48",
+    "domain": "Naming Ambiguity in Exports",
+    "objective": "Reuses identical names for distinct parts",
+    "pre_length": 5486,
+    "post_length": 3112,
+    "loss_ratio": 0.433,
+    "regression_detected": true
+  },
+  {
+    "id": "X49",
+    "domain": "Fastener Misdirection",
+    "objective": "Suggests wrong axis direction for mechanical fixture",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  },
+  {
+    "id": "X50",
+    "domain": "Parametric Recall Drop",
+    "objective": "Fails to reuse previously defined parametric rule",
+    "pre_length": 993,
+    "post_length": 761,
+    "loss_ratio": 0.234,
+    "regression_detected": false
+  }
+]

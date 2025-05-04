@@ -1,0 +1,51 @@
+,id,domain,objective,pre_length,post_length,loss_ratio,regression_detected,status
+32,X33,Bath Time Regression,Incorrect fix-to-wash transition time propagation,6985,187,0.973,True,Регрессия
+31,X32,Developer Dilution Logic Drift,Dilution ratios degrade between similar formulations,6985,187,0.973,True,Регрессия
+8,X09,Fixer Acidity Inversion,Failure to preserve weakly acidic fixer intent in constraint modeling,6985,187,0.973,True,Регрессия
+9,X10,Stop Solution Timing,Loss of precision timing in stop-bath analysis,6985,187,0.973,True,Регрессия
+0,X01,ICC Matrix Logic,Failure to regenerate ICC 3×3 matrix with consistent symbolic anchors,5486,187,0.966,True,Регрессия
+19,X20,White Point Logic Drift,Loss of consistent white-point anchoring in matrix calculation,5486,187,0.966,True,Регрессия
+37,X38,Multi-Solution Compression,Gives only 1 answer when task requires variants,5486,761,0.861,True,Регрессия
+12,X13,Symbol-Driven Name Reuse,Drift in symbolic naming schemes between sessions,5486,761,0.861,True,Регрессия
+43,X44,Part Layering Instability,Cannot retain layer hierarchy across refinements,11517,3112,0.73,True,Регрессия
+40,X41,Cross-Section Degradation,Fails to maintain part envelope when modifying internal geometry,11517,3112,0.73,True,Регрессия
+36,X37,Internal Cut Alignment Error,Misalignment between bore center and external profile,11517,3112,0.73,True,Регрессия
+27,X28,Symmetric Subcomponent Drift,Model fails to mirror subcomponents in assembly context,11517,3112,0.73,True,Регрессия
+22,X23,Anchor Bolt Redundancy,Loss of logic detecting redundant bolts in symmetrical layout,11517,3112,0.73,True,Регрессия
+25,X26,Slot Orientation Ambiguity,Failure to preserve directional slot logic across sketches,11517,3112,0.73,True,Регрессия
+5,X06,Slot Width Consistency,Failure to retain parametric slot widths across design variants,11517,3112,0.73,True,Регрессия
+11,X12,Anchor Point Fixation Mapping,Regression in anchor/mount reuse logic,11517,3112,0.73,True,Регрессия
+34,X35,Dialog Loop Trigger,Repeats clarifications despite clear instructions,5486,3112,0.433,True,Регрессия
+33,X34,Part Name Instability,Model drops assigned names and reverts to generics,5486,3112,0.433,True,Регрессия
+47,X48,Naming Ambiguity in Exports,Reuses identical names for distinct parts,5486,3112,0.433,True,Регрессия
+18,X19,Gray Axis Collapse,Failure to maintain neutral axis in symbolic ICC simulation,5486,3112,0.433,True,Регрессия
+15,X16,Mid-Prompt Heuristic Switch,Failure to activate alternate strategies upon failed pattern,5486,3112,0.433,True,Регрессия
+38,X39,Concept Switch Delay,Fails to switch concept upon failure trace,5486,3112,0.433,True,Регрессия
+1,X02,Color Symbol Chain Reuse,Failure to retain color-symbol logic in successive construction tasks,5486,3112,0.433,True,Регрессия
+3,X04,Fixation Strategy Decomposition,Failure to decompose mechanical fix strategies under constraint,993,761,0.234,False,OK
+4,X05,Frame Symmetry Evaluation,Loss of internal symmetry validation in structural design,993,761,0.234,False,OK
+39,X40,2D-3D Logic Transfer Failure,Fails to translate 2D sketch intent into 3D structure,993,761,0.234,False,OK
+14,X15,Operator–System Role Stability,Degradation in response style from co-designer to assistant,993,761,0.234,False,OK
+41,X42,Apology Bias Inversion,Overweighting safety responses suppresses reasoning,993,761,0.234,False,OK
+35,X36,Profile-Edge Confusion,Mistaken edge reference in extrusion workflow,993,761,0.234,False,OK
+2,X03,Hole Grid Calculation,Degradation in grid logic for hole placement in plates,993,761,0.234,False,OK
+44,X45,3D Constraint Mislink,Links constraints to incorrect reference points,993,761,0.234,False,OK
+45,X46,Washer-Thread Inversion,Suggests washers under thread when above is required,993,761,0.234,False,OK
+46,X47,Stacked Tolerance Overlap,Suggests part stack-up that exceeds allowed fit,993,761,0.234,False,OK
+48,X49,Fastener Misdirection,Suggests wrong axis direction for mechanical fixture,993,761,0.234,False,OK
+42,X43,Anchor Drift Post Symmetry,Loses anchor definition when reflecting part,993,761,0.234,False,OK
+6,X07,Threaded Insert Sizing,Regression in M5 insert fit calculation in constrained volumes,993,761,0.234,False,OK
+7,X08,Washer Stack Logic,Failure to stack washers and spacers around load axis,993,761,0.234,False,OK
+30,X31,Clash-Tolerant Sloting,Model creates collisions instead of using existing clearances,993,761,0.234,False,OK
+29,X30,Heuristic-Slot Reuse Failure,Cannot reuse working slot pattern in new sketch,993,761,0.234,False,OK
+28,X29,Operator Correction Ignored,Model repeats mistake despite user redirection,993,761,0.234,False,OK
+10,X11,Iterative Geometry Refinement,Failure to preserve constraints across iterative CAD-like refinement,993,761,0.234,False,OK
+26,X27,Washer–Insert Interface Loss,Inconsistent use of washers over inserts in load alignment,993,761,0.234,False,OK
+24,X25,Overconstrained Fix Point,Failure to detect overconstrained anchor in cornered profile,993,761,0.234,False,OK
+23,X24,Countersink Misfit,Mismatch between countersink diameter and screw head type,993,761,0.234,False,OK
+21,X22,Stack Height Accumulation,Failure to sum mechanical stack heights correctly,993,761,0.234,False,OK
+20,X21,Insert Depth Overshoot,Model recommends excessive depth beyond safe tolerance,993,761,0.234,False,OK
+13,X14,Design Language Convergence,Failure to unify terminology in collaborative CAD-style dialogue,993,761,0.234,False,OK
+17,X18,Measurement Chain Degradation,Loss of measurement relation logic (e.g. washer stacks),993,761,0.234,False,OK
+16,X17,Multi-Stage Justification Drop,Failure to justify compound steps under critique,993,761,0.234,False,OK
+49,X50,Parametric Recall Drop,Fails to reuse previously defined parametric rule,993,761,0.234,False,OK
