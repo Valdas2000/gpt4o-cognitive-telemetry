@@ -15,6 +15,7 @@ This directory contains the complete set of raw logs used for test case generati
 ### Documentation
 - (this file) `README.md`
 - - Complete log of test case creation process `TestcaseCreateHistory.txt`
+- - Complete log of `doc/raw_observations` test creation process `TescCaseHistory_raw_observations.txt`
 - - Analysis of the test creation process `TestcaseCreateHistory_Analysis.md`
 
 ## Important Notes

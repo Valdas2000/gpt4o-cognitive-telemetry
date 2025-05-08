@@ -4,6 +4,9 @@
 This repository preserves a unique phenomenon in AI development: a real-time documentation of GPT-4o's cognitive changes, partially authored by the system itself during the critical transition period. Unlike standard regression reports, this archive contains the system's own observations and analysis of its changing capabilities.
 
 ## Repository Structure
+
+This repository follows laboratory journal principles where Git commits and their messages serve as timestamped entries. Each artifact collection represents a research milestone rather than a version, preserving the natural flow of investigation including raw data, generated test cases, and their analysis.
+
 ```
 /data
     /raw_logs              # Primary interaction logs
@@ -11,7 +14,7 @@ This repository preserves a unique phenomenon in AI development: a real-time doc
     /raw_observations      # Direct system observations
 /methodology
     /protocols             # Testing and documentation protocols
-    /tools                 # Analysis tools and utilities
+    /tools                 # Analysis tools and guidelines
 /test_cases
     /gpt_generated_drafts  # System-generated test scenarios
     /validated             # Verified and approved test cases

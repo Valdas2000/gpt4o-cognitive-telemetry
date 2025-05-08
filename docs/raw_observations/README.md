@@ -14,6 +14,9 @@ This directory contains raw observation data and analysis from initial AI capabi
 Initial observations were collected on April 30, 2025 (first day after IDE update) via ChatGPT conversation. The raw conversation export is preserved in its original format as defined by the data export protocol, maintaining original file timestamps and conversation context.
 
 ## Raw Data
+- Initial testcases:
+    - `GPT4o_Expert_Degradation_Cases.json`
+
 The raw conversation export (`2025-04-30_16-54_PretensiaToOpenAI.zip`) contains the complete, unmodified ChatGPT conversation export including:
 - Main observation files:
     - `Testcases.md`
